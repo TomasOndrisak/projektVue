@@ -19,7 +19,7 @@
   </thead>
   <tbody>
   <tr v-for="zam in archivovany" :key="zam.Id">  
-        <td><router-link :to="'/detailarchivovany/'+ zam.id">{{zam.meno}} {{zam.priezvisko}}</router-link></td>  
+        <!-- <td><router-link :to="'/detailarchivovany/'+ zam.id">{{zam.meno}} {{zam.priezvisko}}</router-link></td>   -->
         <td>{{zam.pozicia}}</td>
         <td>{{Datum(zam.datumPrepustenia)}}</td> 
         <td><button v-on:click="deleteArchivovany(zam.id)" type="button" class="btn btn-dark">Zmazať</button></td>
@@ -36,7 +36,7 @@
   </div>
 </template>
 <script>
-  import Archivovanyservice from "../Archivovanyservice";
+
   import moment from 'moment';
 
 
@@ -44,7 +44,7 @@
              name: 'Archivovany',  
                  data() {  
            return {  
-          archivovany: [],
+          // archivovany: [],
          
 
         };  

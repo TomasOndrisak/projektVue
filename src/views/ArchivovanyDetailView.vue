@@ -31,7 +31,6 @@
 
 <script>
 
-import Archivovanyservice from '@/Archivovanyservice';
 import moment from 'moment';
 
 export default {

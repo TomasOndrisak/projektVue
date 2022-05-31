@@ -88,31 +88,31 @@ data(){
    return {
               id: this.$route.params.id, //id zamestnanca
            
-           Pozicie:[],
-           zamestnanec: {
-                  meno: "",
-                  priezvisko: "",
-                  adresa: "",
-                  datumNarodenia:  "", 
-                  datumNastupu: "",
-                  pozicia: "",
-                  plat: "" },
+          //  Pozicie:[],
+          //  zamestnanec: {
+          //         meno: "",
+          //         priezvisko: "",
+          //         adresa: "",
+          //         datumNarodenia:  "", 
+          //         datumNastupu: "",
+          //         pozicia: "",
+          //         plat: "" },
 
 
-                  PredoslePozicie: {
-                    pozicia:"",
-                    datumNastupu: "",
-                    datumUkoncenia: "",
-                  },
+          //         PredoslePozicie: {
+          //           pozicia:"",
+          //           datumNastupu: "",
+          //           datumUkoncenia: "",
+          //         },
 
 
-                  predoslePozicie: {
-                    id:0,
-                    datumNastupu: "",
-                    datumUkoncenia: new Date(),
-                    pozicia: "",
-                    idZamestnanca: this.$route.params.id,
-                  },
+          //         predoslePozicie: {
+          //           id:0,
+          //           datumNastupu: "",
+          //           datumUkoncenia: new Date(),
+          //           pozicia: "",
+          //           idZamestnanca: this.$route.params.id,
+          //         },
            }
            
 },

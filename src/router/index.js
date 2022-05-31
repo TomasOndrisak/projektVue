@@ -19,11 +19,6 @@ const routes = [
     component: ZamestnanciViewVue
   },
   {
-    path: '/Archivovany',
-    name: 'Archivovany',
-    component: ArchivovanyView
-  },
-  {
     path: '/Pozicie',
     name: 'Pozicie',
     component: PozicieView
@@ -50,11 +45,11 @@ const routes = [
     name: 'detail',
     component: DetailView
   },
-  {
-    path: '/detailarchivovany/:id',
-    name: 'archivovanydetail',
-    component: ArchivovanyDetailView
-  },
+  // {
+  //   path: '/detailarchivovany/:id',
+  //   name: 'archivovanydetail',
+  //   component: ArchivovanyDetailView
+  // },
 
 ]
 

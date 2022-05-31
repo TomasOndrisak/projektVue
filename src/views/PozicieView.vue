@@ -15,8 +15,8 @@
   </thead>
   <tbody>
    
-      <tr v-for="poz in pozicie" :key="poz.Id">  
-                   <td>{{poz.nazov}}</td>  
+      <tr v-for="poz in pozicie" :key="poz.PoziciaId">  
+                   <td>{{poz.NazovPozicie}}</td>  
                 
       <th></th>
       <td><button v-on:click="Delete(poz.id)" type="button" class="btn btn-dark">Zmazať</button></td>

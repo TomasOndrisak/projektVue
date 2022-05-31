@@ -6,9 +6,7 @@
       get() {  
             return http.get("/api/Zamestnanci");
           }  //GET
-      getZoznam() {
-        return http.get("api/zamestnancizoznam");
-      }
+      
 
       getId(id) {  
             return http.get("/api/Zamestnanci/"+id);
